@@ -6,9 +6,9 @@ const app = express();
 
 const mysql = require("mysql");
 const connection = mysql.createConnection({ // 연결할 DB 정의
-    host : "203.250.33.100",
-    user : "inlab",
-    password : "@inlab515",
+    host : "hostip",
+    user : "id",
+    password : "passwd",
     database : "test"
 });
 
