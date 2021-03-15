@@ -3,9 +3,9 @@
 const mysql = require("mysql");
 
 const connection = mysql.createConnection({ //연결할 DB정의
-    host : "203.250.33.100", // 연결할 host ip 주소
-    user : "inlab", // DB 사용자 이름
-    password : "@inlab515", // 사용자 패스워드
+    host : "000.000.000.000", // 연결할 host ip 주소
+    user : "user", // DB 사용자 이름
+    password : "", // 사용자 패스워드
     database : "test" // 사용할 DB 이름
 });
 
